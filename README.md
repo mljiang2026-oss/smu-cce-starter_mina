@@ -1,5 +1,46 @@
 ## Installation Instructions
 
+1. Open a terminal and move into the project folder:
+
+  ```bash
+  cd smu-cce-starter_mina
+  ```
+
+2. Create and activate a virtual environment:
+
+  ```bash
+  python3 -m venv .venv
+  source .venv/bin/activate
+  ```
+
+3. Install the required packages:
+
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+4. Start Jupyter Notebook:
+
+  ```bash
+  jupyter notebook
+  ```
+
+5. Open a notebook from `notebooks/` in your browser and run its cells from top to bottom.
+
+## Code Walkthrough
+
+- `requirements.txt` lists the Python packages used by the project, including pandas, yfinance, and Streamlit.
+- `lessons/` contains the course instructions and concepts.
+- `notebooks/` contains the main analysis work:
+  - `filings.ipynb` explores company filings and financial data.
+  - `news.ipynb` explores financial news data.
+  - `stock_price_ratings.ipynb` analyzes stock prices and ratings.
+- `README.md` explains the project and how to get started.
+
+The workflow is: read a lesson, open the related notebook, load data, clean and analyze it with Python, and view the resulting tables or charts. The notebook analyses are the starting point for building the financial-data application described in the course.
+
+## Installation Instructions
+
 If you are new to Python projects, follow these steps in your terminal:
 
 1. Open a terminal in the project folder.
